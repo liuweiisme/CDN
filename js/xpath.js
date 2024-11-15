@@ -1,7 +1,7 @@
 let _elementP, _element;
 
 function getXPath(e) {
-    if ("" !== e.id) return '//*[@id="' + element.id + '"]';
+    if ("" !== e.id) return '//*[@id="' + e.id + '"]';
     if (e === document.body) return "/html/body";
     for (var t = 1, a = e.parentNode ? e.parentNode.childNodes : [], o = 0; o < a.length; o++) {
         var n = a[o];
