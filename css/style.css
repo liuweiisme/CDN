@@ -1,12 +1,1 @@
-@media (prefers-color-scheme: dark) {
-  html {
-    filter: invert(90%) hue-rotate(180deg);
-  }
-  img,
-  video,
-  svg,
-  div[class*="language-"] {
-    filter: invert(110%) hue-rotate(180deg);
-    opacity: 0.8;
-  }
-}
+@media (prefers-color-scheme: dark) { html { filter: invert(90%) hue-rotate(180deg); } img, video, svg, div[class*="language-"] { filter: invert(110%) hue-rotate(180deg); opacity: 0.8; } } img { display: none !important; } .row_text, .row_textl { margin: 0 0 0 0 !important; } a:focus, a:hover, a:active { text-decoration: none !important; } .rank-switch .bd ul a > li:hover { color: #ff6600 !important; } .box2 ul li a > p:hover { color: #ff6600 !important; } .blockcontent { padding: 10px !important; } .recommend { display: none !important; }
