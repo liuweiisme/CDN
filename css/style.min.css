@@ -1,1 +1,41 @@
-.row_text, .row_textl { margin: 0 0 0 0 !important; } a:focus, a:hover, a:active { text-decoration: none !important; } .rank-switch .bd ul a > li:hover { color: #ff6600 !important; } .box2 ul li a > p:hover { color: #ff6600 !important; } .blockcontent { padding: 10px !important; } .recommend { display: none !important; } a.moretop, .moretop a { line-height: 2.05em !important; } .row_cover, .row_coverl { float: left; width: 115px; } .main_box > .place_holder_box, .shortcut_box { display: none !important; } .banner_box > .swiper { display: none !important; }
+.row_text,
+.row_textl {
+  margin: 0 0 0 0 !important;
+}
+a:focus,
+a:hover,
+a:active {
+  text-decoration: none !important;
+}
+.rank-switch .bd ul a > li:hover {
+  color: #ff6600 !important;
+}
+.box2 ul li a > p:hover {
+  color: #ff6600 !important;
+}
+.blockcontent {
+  padding: 10px !important;
+}
+.recommend {
+  display: none !important;
+}
+a.moretop,
+.moretop a {
+  line-height: 2.05em !important;
+}
+.row_cover,
+.row_coverl {
+  float: left;
+  width: 115px;
+}
+.main_box > .place_holder_box,
+.shortcut_box {
+  display: none !important;
+}
+.banner_box > .swiper {
+  height: 0 !important;
+}
+.banner_box > .swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
